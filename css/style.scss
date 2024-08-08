@@ -1,0 +1,351 @@
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+// import custom styles
+
+// import poppins font
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.bg-body-tertiary{
+  background: #fff !important;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mb-15 {
+  margin-bottom: 150px;
+}
+
+.carousel-caption {
+  max-width: 600px;
+  margin: auto;
+  bottom: 40px;
+}
+
+.img {
+  width: 546px;
+  height: 364px;
+}
+
+.booking-discount-main {
+  display: grid;
+}
+
+.booking-discount {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: fixed;
+  right: 0;
+  top: 250px;
+  padding-right: 30px;
+  border-radius: 1px;
+  background: #fff;
+  box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.15);
+}
+
+.alert {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.booking-dis-line {
+  width: 8px;
+  height: 42px;
+  border: none;
+  border-radius: 1px;
+  background: #3f87f5;
+}
+
+.booking-dis-icon {
+  width: 22px;
+  height: 23px;
+}
+
+.booking-dis-title {
+  color: #505050;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.booking-main {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-top: 140px;
+  gap: 20px;
+}
+
+.btn-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.btn-primary {
+  background: #3f87f5;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: start;
+  gap: 8px;
+}
+
+.btn-primary-font {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.price-title {
+  color: #0a0826;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 150px;
+}
+
+.card__title {
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+.card_title-text {
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card_title-content-text {
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title_content-item-text {
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card__title-white {
+  color: #fff;
+}
+
+.list_icon {
+  width: 20px;
+  height: 20px;
+}
+
+.btns {
+  display: flex;
+  padding: 14px 62px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 24px;
+  border: 2px solid #3f87f5;
+  background: #fff;
+  cursor: pointer;
+}
+
+.btns_text {
+  color: #3f87f5;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card__list:hover {
+    &::before {
+      content: "Hot";
+      position: absolute;
+      top: -10px;
+      left: 75%;
+      padding: 5px 10px;
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 1.2;
+      background: red;
+      color: white;
+      border-radius: 24px;
+    }
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 45px;
+  border-radius: 26px;
+  color: white;
+  background: rgb(63, 135, 245, 0.8);
+  box-shadow: 0px 42px 34px 0px rgba(63, 135, 245, 0.25);
+}
+
+.client-title {
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+
+.happy {
+  color: #0a0826;
+}
+
+.client {
+  color: #222221;
+}
+
+.client_card-text {
+  color: #6c6c6c;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+}
+
+.client_card-title {
+  color: #0c1920;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.client_card-title-text {
+  color: #747474;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.card_logo {
+  border: none;
+  border-radius: 100px;
+  background: lightgray 50% / cover no-repeat;
+}
+
+.faq-title {
+  color: #383838;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.faq-title-text {
+  color: #7e848c;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.accordion-img {
+  width: 546px;
+  height: 364px;
+  border: none;
+  border-radius: 7px;
+  background: lightgray 50% / cover no-repeat;
+}
+
+.footer__main{
+  background: #0b0d17;
+  >div{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 0;
+  }
+
+}
+
+.footer-title {
+  color: var(--Text-Gray-300, #d9dbe1);
+  font-feature-settings: "liga" off;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.app-download{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-text {
+  color: var(--Text-Gray-300, #d9dbe1);
+  font-feature-settings: "liga" off;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.footer-icon {
+  width: 135px;
+  height: 40px;
+}

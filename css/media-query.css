@@ -1,0 +1,72 @@
+@media (max-width: 1536px) {
+}
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 640px) {
+}
+
+@media (max-width: 475px) {
+  body {
+    width: 100%;
+    display: grid;
+    grid-column: 1fr;
+  }
+  .container {
+    width: 100%;
+    display: grid;
+    grid-column: 1fr;
+  }
+  .navbar-brand {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: bold;
+  }
+  .mb-100 {
+    margin-bottom: 50px;
+  }
+  .booking-main {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > article {
+      font-size: 18px;
+      line-height: 1.5;
+      padding: 0 5px;
+    }
+  }
+  .price-title {
+    margin-bottom: 50px;
+    font-size: 33px;
+  }
+
+  .card__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .client-title {
+    font-size: 33px;
+  }
+  .accordion {
+    font-size: 30px;
+  }
+  .mb-15 {
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .faq-title {
+    font-size: 18px;
+  }
+}
